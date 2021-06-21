@@ -11,9 +11,9 @@ import java.util.Comparator;
 public class FanXiLetter01 {
     public static void main(String[] args) {
         ArrayList<Employee> arrayList = new ArrayList<>();
-        arrayList.add(new Employee("张三",3000,new MyDate(5,2,1991)));
-        arrayList.add(new Employee("李四",2000,new MyDate(3,5,1993)));
-        arrayList.add(new Employee("王五",5000,new MyDate(6,1,1992)));
+        arrayList.add(new Employee("张三1",3000,new MyDate(5,2,1991)));
+        arrayList.add(new Employee("李四2",2000,new MyDate(3,5,1993)));
+        arrayList.add(new Employee("王五3",5000,new MyDate(6,1,1992)));
 
         arrayList.sort(new Comparator<Employee>() {
             @Override
